@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>action-MOOC-Podcast</title>
+  <script>
+  function copyPlainString (text) {
+    if (!navigator.clipboard) {
+      this.fallbackCopyTextToClipboard(text);
+      return;
+    }
+    navigator.clipboard.writeText(text).then(function () {
+      //console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+      //console.error('Async: Could not copy text: ', err);
+    });
+  }
+  </script>
+</head>
+<body>
+<ol>
+<li>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('https://democwise2016.github.io/action-MOOC-Podcast-202405/operating-system-ub_4DUYK5sk3Fs.rss');this.style.color='red';">COPY</button>
+      <a href="https://democwise2016.github.io/action-MOOC-Podcast-202405/operating-system-ub_4DUYK5sk3Fs.rss" target="_blank">作業系統</a>
+      (<a href="https://www.youtube.com/watch?v=4DUYK5sk3Fs" target="_blank">source</a>)
+    </li></ol>
+</body>
+</html>
