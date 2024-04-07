@@ -1,0 +1,17 @@
+# docker-Specify the compose version
+version: "3"
+
+services:
+  app:
+    # build: .
+    image: pudding/github-action-app:puppeteer-python-14-action-rss-ut-20230903-0240
+    tty: true
+    volumes: 
+      - ./startup.sh:/startup.sh
+      - ./app:/app/
+      - ./output:/output/
+      - ./cache:/cache/
+      - ./config.js:/config.js
+      - ./config-list.js:/config-list.js
+      - ./config-json.js:/config-json.js
+      - ./package.json:/package.json

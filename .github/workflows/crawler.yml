@@ -1,0 +1,173 @@
+name: Crawler
+on: 
+  push:
+  # schedule:
+  #   - cron:  "5 0 * * *" # 實際執行時間是這個時間加八小時
+  #   - cron:  "5 8 * * *" # 實際執行時間是這個時間加八小時
+  #   - cron:  "5 16 * * *" # 實際執行時間是這個時間加八小時
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-20.04
+    steps:
+      # ----------------------------------------------------------------
+      
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      # ----------------------------------------------------------------
+      # https://github.com/orgs/community/discussions/26351#discussioncomment-3251597
+
+      - name: free disk space
+        run: | 
+          sudo swapoff -a
+          sudo rm -f /swapfile
+          sudo apt clean
+          docker rmi $(docker image ls -aq)
+          df -h
+
+      # ----------------------------------------------------------------
+
+      - uses: satackey/action-docker-layer-caching@v0.0.11
+        # Ignore the failure of a step and avoid terminating the job.
+        continue-on-error: true
+
+      # ----------------------------------------------------------------
+
+      # - name: Cache Restore
+      #   id: cache-restore
+      #   uses: actions/cache/restore@v3
+      #   env:
+      #     cache-name: cache
+      #   with:
+      #     path: |
+      #       cache
+      #       output
+      #     key: ${{ runner.os }}-build-${{ env.cache-name }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-build-${{ env.cache-name }}
+      #       ${{ runner.os }}-build-
+      #       ${{ runner.os }}-
+
+      - name: Cache
+        id: cache
+        uses: actions/cache@v3
+        env:
+          cache-name: cache
+        with:
+          path: |
+            cache
+            output
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      # ----------------------------------------------------------------
+
+      # - name: Clean Cache
+      #   run: |
+      #     rm -rf /output/*
+      #     rm -rf /cache/*
+      #     docker rmi -f $(docker images -aq)
+      #     docker network prune -f
+      #     docker volume prune -f
+
+      # - name: Clean Cache node-cache.sqlite
+      #   run: |
+      #     rm -rf ./cache/node-cache-sqlite*
+
+      # - name: Clean Cache node-cache.sqlite CaptionDownloader
+      #   run: |
+      #     rm -rf ./cache/node-cache-sqlite_CaptionDownloader.sqlite
+
+      # - name: Clean Object Cache node-cache.sqlite
+      #   run: |
+      #     rm -f ./cache/node-cache-sqlite_*object*.sqlite
+
+      # - name: Clean Cache
+      #   run: |
+      #     rm -rf ./cache/*
+      #     docker rmi -f $(docker images -aq)
+      #     docker network prune -f
+      #     docker volume prune -f
+
+      # - name: Clean RSS
+      #   run: |
+      #     rm -rf ./output/*.rss
+      #     rm -rf ./output/*.html
+      #     rm -rf ./output/.gitignore
+
+      # - name: Remove unsubscribe channels
+      #   run: |
+      #     rm -rf ./output/meisouniv-news-ch_UCiCOKR_WkqZuYN9fpjWqnzg*
+      #     rm -rf ./output/KC-Huang-917POPRadio-ch_UCJ5rBA0z4WFGtUTS83sAb_A*
+
+      # ----------------------------------------------------------------
+
+      - name: Check Cache Size Before
+        run: |
+          ls -lh ./cache/*.sqlite || true
+
+      - name: Output Calculate Before
+        run: |
+          ls -lh ./output/*.rss || true
+      
+      # ----------------------------------------------------------------
+
+      # - name: Prepare Cache
+      #   run: |
+      #     mkdir -p cache
+      #     echo `date` > cache/trigger.txt
+      #     mkdir -p output
+      #     echo `date` > output/trigger.txt
+
+      # - name: Clean download failed cache
+      #   run: |
+      #     rm -rf cache/node-cache_UBMp3DownloadFailed.sqlite
+
+      # - name: Clean old downloaded
+      #   run: |
+      #     rm -rf output/*/0*
+      #     rm -rf output/*/1*
+
+      # - name: Rename
+      #   run: |
+      #     mv output/western-humanities-classics-and-humanistic-thinking-ub_94u11jAET48.rss output/western-humanities-classics-and-humanistic-thinking-0130-ub_94u11jAET48.rss
+      #     mv output/western-humanities-classics-and-humanistic-thinking-ub_94u11jAET48 output/western-humanities-classics-and-humanistic-thinking-0130-ub_94u11jAET48
+
+      - name: Main
+        run: |
+          docker-compose up
+
+      # ----------------------------------------------------------------
+
+      - name: Check Cache Size After
+        run: |
+          ls -lh ./cache/*.sqlite || true
+
+      - name: Output Calculate After
+        run: |
+          ls -lh ./output/*.rss || true
+
+      # - name: Cache Save
+      #   id: cache-save
+      #   uses: actions/cache/save@v3
+      #   env:
+      #     cache-name: cache
+      #   with:
+      #     path: |
+      #       cache
+      #       output
+      #     key: ${{ runner.os }}-build-${{ env.cache-name }}
+
+      # ----------------------------------------------------------------
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: output # The folder the action should deploy.

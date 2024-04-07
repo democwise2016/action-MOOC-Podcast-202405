@@ -1,0 +1,24 @@
+{
+  "name": "action-UT-Podcast",
+  "version": "1.0.0",
+  "description": "action-UT-Podcast",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose down; docker-compose up",
+    "up": "docker-compose up",
+    "down": "docker-compose down",
+    "build-up": "docker-compose up --build",
+    "bash": "docker-compose run app bash",
+    "lang": "docker-compose run app python3 /app/python/lang.py FFWryY3_Pc0",
+    "build": "docker-compose build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/democwise2016/action-UT-Podcast.git"
+  },
+  "keywords": [
+    "GitHub Action"
+  ],
+  "dependencies": {
+  }
+}
