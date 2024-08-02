@@ -1,4 +1,4 @@
-const UBMp3Downloader = require('./UBMp3Downloader.js')
+// const UBMp3Downloader = require('./UBMp3Downloader.js')
 const ShellSpawn = require('./../../../lib/ShellSpawn.js')
 const fs = require('fs')
 
@@ -43,6 +43,17 @@ async function getOptions (options = {}) {
   return options
 }
 
+const LOCK_PATH = '/tmp/download.lock'
+function downloadLockStart () {
+  fs.writeFileSync(LOCK_PATH, (new Date()).toISOString(), 'utf-8')
+}
+
+function downloadLockEnd () {
+  if (fs.existsSync(LOCK_PATH)) {
+    fs.unlinkSync(LOCK_PATH)
+  }
+}
+
 module.exports = async function (videoID, output, options = {}) {
   return new Promise(async function (resolve, reject) {
     let pos = output.lastIndexOf('/') + 1
@@ -51,40 +62,54 @@ module.exports = async function (videoID, output, options = {}) {
 
     options.outputPath = dir
     options = await getOptions(options)
-    let YD = new UBMp3Downloader(options)
+    // let YD = new UBMp3Downloader(options)
 
     let url = `https://www.yo` + `ut` + `ube.com/watch?v=` + videoID
 
-
-    fs.writeFileSync(`/app/tmp/GetHTML.txt`, (new Date()).getTime() + '', 'utf8') 
     console.log(`[DOWNLOAD] Start \t${url}` + '\t' + output + '\t' + (new Date()).toISOString())
-
+    downloadLockStart()
 
     let showDownloadEndMessage = function () {
       console.log(`[DOWNLOAD] End \t${url}` + '\t' + output + '\t' + (new Date()).toISOString())
+      downloadLockEnd()
       resolve(filename)
     }
 
+    // YD.on("finished", function(err, data) {
+    //   // console.log('End Downloaded: ' + videoID)
+    //   showDownloadEndMessage()
+    // })
 
-    YD.on("finished", function(err, data) {
-      // console.log('End Downloaded: ' + videoID)
+    // YD.on("error", async function(error) {
+    //   // console.error(error)
+
+    //   try {
+    //     output = `"${output}"`
+    //     await ShellSpawn(["python3", "/app/app/python/ub.py", url, output])
+    //     showDownloadEndMessage()
+    //   }
+    //   catch (e) {
+    //     console.log([`[DOWNLOAD] Please check video: https://www.yo` + `ut` + `ube.com/watch?v=${videoID}`, (new Date()).toISOString()].join('\t'))
+    //     downloadLockEnd()
+    //     reject(error)
+    //   }
+    // })
+
+    // YD.download(videoID, filename);
+
+    try {
+      let outputPython = `"${output}"`
+      let commands = ["python3", "/app/python/ub.py", url, outputPython]
+      // console.log(commands)
+      await ShellSpawn(commands)
+      // await ShellSpawn(['ls', '-l', output.slice(0, output.lastIndexOf('/'))])
       showDownloadEndMessage()
-    })
-
-    YD.on("error", async function(error) {
-      // console.error(error)
-
-      try {
-        await ShellSpawn(["python3", "/app/python/ub.py", url, output])
-        showDownloadEndMessage()
-      }
-      catch (e) {
-        console.log([`[DOWNLOAD] Please check video: https://www.yo` + `ut` + `ube.com/watch?v=${videoID}`, (new Date()).toISOString()].join('\t'))
-        reject(error)
-      }
-    })
-
-    YD.download(videoID, filename);
+    }
+    catch (e) {
+      console.log([`[DOWNLOAD] Please check video: https://www.yo` + `ut` + `ube.com/watch?v=${videoID}`, (new Date()).toISOString()].join('\t'))
+      downloadLockEnd()
+      reject(error)
+    }
   })
     
 }

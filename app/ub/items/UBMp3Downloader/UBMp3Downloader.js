@@ -36,12 +36,7 @@ class UBMp3Downloader extends EventEmitter {
             self.emit('queueSize', self.downloadQueue.running() + self.downloadQueue.length());
 
             self.performDownload(task, function(err, result) {
-                try {
-                    callback(err, result);
-                }
-                catch (e) {
-                    console.error(e)
-                }
+                callback(err, result);
             }).catch(function (err) {
               throw err
             });
