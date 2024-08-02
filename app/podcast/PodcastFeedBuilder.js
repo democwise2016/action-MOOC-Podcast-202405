@@ -31,6 +31,18 @@ module.exports = async function (options) {
     }
     options.thumbnail = options.thumbnail.split('c0x00ffffff-no-rj').join(`c0x00${options.thumbnailBorderColor}-no-rj`)
   }
+
+  // console.log(options.thumbnail, options.thumbnailBorderColor, CONFIG.thumbnailBorderColor)
+  if (options.thumbnail && options.thumbnail.startsWith('https://') && (options.thumbnail.indexOf('=s900-c-k-') > -1) && options.thumbnailBorderColor) {
+    // console.log(options.thumbnailBorderColor, CONFIG.thumbnailBorderColor)
+    if (options.thumbnailBorderColor === CONFIG.thumbnailBorderColor) {
+      options.thumbnail = options.thumbnail.split('=s900-c-k-').join('=s900-b50-c-k-')
+    }
+    else {
+      options.thumbnail = options.thumbnail.split('=s900-c-k-').join('=s900-b100-c-k-')
+    }
+    options.thumbnail = options.thumbnail.split('c0x00ffffff-no-rj').join(`c0x00${options.thumbnailBorderColor}-no-rj`)
+  }
   
   if (!options.link && options.feedLink) {
     options.link = options.feedLink
@@ -51,17 +63,11 @@ module.exports = async function (options) {
   }
   
   if (options.feedURL) {
-    let feedURL = options.feedURL
-
-    if (Array.isArray(feedURL)) {
-      feedURL = feedURL[0].url
-    }
-
     options.description = options.description 
             + '<br />\n' 
             + '<br />\n' 
             //+ options.feedURL
-            + `<a href="${feedURL}" target="_blank">${feedURL}</a>`
+            + `<a href="${options.feedURL}" target="_blank">${options.feedURL}</a>`
   }
   
   //console.log(options)
@@ -179,33 +185,6 @@ ${channelDescription}`
       
       let title = item.title
 
-      // =================================================================
-      // 根據標題的數字來調整
-      // console.log({title}, title.indexOf('. '))
-      if (title.indexOf('. ') > 0) {
-        let numbering = Number(title.slice(0, title.indexOf('.')))
-        // console.log({numbering})
-        if (isNaN(numbering) === false) {
-          var originalDate = new Date(item.date)
-
-          // Subtract one day
-          originalDate.setFullYear(2020);
-          originalDate.setMonth(11);
-          originalDate.setDate(30);
-          
-          originalDate.setDate(originalDate.getDate() - (numbering));
-
-          var year = originalDate.getFullYear();
-          var month = (originalDate.getMonth() + 1).toString().padStart(2, '0');
-          var day = originalDate.getDate().toString().padStart(2, '0');
-
-          item.date = year + '-' + month + '-' + day;
-        }
-        // console.log(item.date)
-      }
-
-      // =================================================================
-
       if (item.date[19] === '-') {
         item.date = item.date.slice(0, 19) + '.000Z'
       }
@@ -216,8 +195,7 @@ ${channelDescription}`
 
       let d = moment(item.date).format('M.D')
       title = '' + d + ']' + title
-      // console.log({title})
-
+      
       output.push(`<item>
       <title><![CDATA[${title}]]></title>
       <itunes:title><![CDATA[${title}]]></itunes:title>
