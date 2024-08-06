@@ -4,11 +4,10 @@ version: "3"
 services:
   app:
     # build: .
-    image: pudding/docker-image-base:action-UT-Podcast-Docker-Image-20240806.191723
+    image: pudding/docker-image-base:action-UT-Podcast-Docker-Image-20240806.192619
     tty: true
     volumes: 
       - ./output:/output/
       - ./cache:/cache/
-      - ./config.js:/config.js
       - ./config-list.js:/config-list.js
       - ./config-json.js:/config-json.js
