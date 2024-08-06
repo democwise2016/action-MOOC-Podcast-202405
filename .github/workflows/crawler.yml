@@ -142,7 +142,7 @@ jobs:
 
       - name: Main
         run: |
-          bash ./install_docker_compose.sh
+          bash ./action/install_docker_compose.sh
           docker-compose up
 
       # ----------------------------------------------------------------
