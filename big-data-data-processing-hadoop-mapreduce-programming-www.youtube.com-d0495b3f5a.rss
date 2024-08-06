@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
   <channel>
-    <title><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></title>
+    <title><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></title>
     <link>https://www.youtube.com/watch?v=_uRfziNa4uA</link>
     <image>
       <url>https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg</url>
-      <title>大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]</title>
+      <title>大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]</title>
       <link>https://www.youtube.com/watch?v=_uRfziNa4uA</link>
     </image>
     <language>en-us</language>
     <atom:link href="[object Object]" rel="self" type="application/rss+xml"/>
-    <copyright><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></copyright>
-    <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+    <copyright><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></copyright>
+    <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
     <itunes:summary>
       <![CDATA[
       <a href="https://www.youtube.com/watch?v=_uRfziNa4uA" target="_blank">https://www.youtube.com/watch?v=_uRfziNa4uA</a>LINK<br />
@@ -26,18 +26,18 @@
       ]]>
     </description>
     <itunes:owner>
-      <itunes:name><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:name>
+      <itunes:name><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:name>
     </itunes:owner>
     <itunes:image href="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg"/>
 <item>
       <title><![CDATA[10.17]1. 1-1 為何要 Hadoop? ewantvideo]]></title>
       <itunes:title><![CDATA[10.17]1. 1-1 為何要 Hadoop? ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[1. 1-1 為何要 Hadoop? ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=_uRfziNa4uA"><img src="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/_uRfziNa4uA/0.jpg" />
 <img src="https://img.youtube.com/vi/_uRfziNa4uA/1.jpg" />
@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[1. 1-1 為何要 Hadoop? ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=_uRfziNa4uA"><img src="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/_uRfziNa4uA/0.jpg" />
 <img src="https://img.youtube.com/vi/_uRfziNa4uA/1.jpg" />
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>1. 1-1 為何要 Hadoop? ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=_uRfziNa4uA"><img src="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/_uRfziNa4uA/0.jpg" />
 <img src="https://img.youtube.com/vi/_uRfziNa4uA/1.jpg" />
@@ -72,12 +72,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[10.18]2. 1-2 Hadoop MapReduce Programming 課程綱要說明 ewantvideo]]></title>
       <itunes:title><![CDATA[10.18]2. 1-2 Hadoop MapReduce Programming 課程綱要說明 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[2. 1-2 Hadoop MapReduce Programming 課程綱要說明 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=1oQJuxQo-x8"><img src="https://img.youtube.com/vi/1oQJuxQo-x8/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/1oQJuxQo-x8/0.jpg" />
 <img src="https://img.youtube.com/vi/1oQJuxQo-x8/1.jpg" />
@@ -88,7 +88,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[2. 1-2 Hadoop MapReduce Programming 課程綱要說明 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=1oQJuxQo-x8"><img src="https://img.youtube.com/vi/1oQJuxQo-x8/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/1oQJuxQo-x8/0.jpg" />
 <img src="https://img.youtube.com/vi/1oQJuxQo-x8/1.jpg" />
@@ -98,7 +98,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>2. 1-2 Hadoop MapReduce Programming 課程綱要說明 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=1oQJuxQo-x8"><img src="https://img.youtube.com/vi/1oQJuxQo-x8/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/1oQJuxQo-x8/0.jpg" />
 <img src="https://img.youtube.com/vi/1oQJuxQo-x8/1.jpg" />
@@ -112,12 +112,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[10.18]3. 1-3 Hadoop介紹 ewantvideo]]></title>
       <itunes:title><![CDATA[10.18]3. 1-3 Hadoop介紹 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[3. 1-3 Hadoop介紹 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=FyC5XqatupY"><img src="https://img.youtube.com/vi/FyC5XqatupY/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/FyC5XqatupY/0.jpg" />
 <img src="https://img.youtube.com/vi/FyC5XqatupY/1.jpg" />
@@ -128,7 +128,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[3. 1-3 Hadoop介紹 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=FyC5XqatupY"><img src="https://img.youtube.com/vi/FyC5XqatupY/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/FyC5XqatupY/0.jpg" />
 <img src="https://img.youtube.com/vi/FyC5XqatupY/1.jpg" />
@@ -138,7 +138,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>3. 1-3 Hadoop介紹 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=FyC5XqatupY"><img src="https://img.youtube.com/vi/FyC5XqatupY/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/FyC5XqatupY/0.jpg" />
 <img src="https://img.youtube.com/vi/FyC5XqatupY/1.jpg" />
@@ -152,12 +152,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[10.18]4. 1-4 windop下載與安裝 ewantvideo]]></title>
       <itunes:title><![CDATA[10.18]4. 1-4 windop下載與安裝 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[4. 1-4 windop下載與安裝 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=HuoDfgyVkzE"><img src="https://img.youtube.com/vi/HuoDfgyVkzE/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/HuoDfgyVkzE/0.jpg" />
 <img src="https://img.youtube.com/vi/HuoDfgyVkzE/1.jpg" />
@@ -168,7 +168,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[4. 1-4 windop下載與安裝 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=HuoDfgyVkzE"><img src="https://img.youtube.com/vi/HuoDfgyVkzE/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/HuoDfgyVkzE/0.jpg" />
 <img src="https://img.youtube.com/vi/HuoDfgyVkzE/1.jpg" />
@@ -178,7 +178,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>4. 1-4 windop下載與安裝 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=HuoDfgyVkzE"><img src="https://img.youtube.com/vi/HuoDfgyVkzE/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/HuoDfgyVkzE/0.jpg" />
 <img src="https://img.youtube.com/vi/HuoDfgyVkzE/1.jpg" />
@@ -192,12 +192,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[11.21]14. 資料視覺化-第7-1堂 ewantvideo]]></title>
       <itunes:title><![CDATA[11.21]14. 資料視覺化-第7-1堂 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[14. 資料視覺化-第7-1堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=9iqxBzZ2B7w"><img src="https://img.youtube.com/vi/9iqxBzZ2B7w/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/9iqxBzZ2B7w/0.jpg" />
 <img src="https://img.youtube.com/vi/9iqxBzZ2B7w/1.jpg" />
@@ -208,7 +208,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[14. 資料視覺化-第7-1堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=9iqxBzZ2B7w"><img src="https://img.youtube.com/vi/9iqxBzZ2B7w/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/9iqxBzZ2B7w/0.jpg" />
 <img src="https://img.youtube.com/vi/9iqxBzZ2B7w/1.jpg" />
@@ -218,7 +218,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>14. 資料視覺化-第7-1堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=9iqxBzZ2B7w"><img src="https://img.youtube.com/vi/9iqxBzZ2B7w/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/9iqxBzZ2B7w/0.jpg" />
 <img src="https://img.youtube.com/vi/9iqxBzZ2B7w/1.jpg" />
@@ -232,12 +232,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[11.21]15. 資料視覺化-第7-2堂 ewantvideo]]></title>
       <itunes:title><![CDATA[11.21]15. 資料視覺化-第7-2堂 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[15. 資料視覺化-第7-2堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=tqAykArustw"><img src="https://img.youtube.com/vi/tqAykArustw/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/tqAykArustw/0.jpg" />
 <img src="https://img.youtube.com/vi/tqAykArustw/1.jpg" />
@@ -248,7 +248,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[15. 資料視覺化-第7-2堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=tqAykArustw"><img src="https://img.youtube.com/vi/tqAykArustw/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/tqAykArustw/0.jpg" />
 <img src="https://img.youtube.com/vi/tqAykArustw/1.jpg" />
@@ -258,7 +258,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>15. 資料視覺化-第7-2堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=tqAykArustw"><img src="https://img.youtube.com/vi/tqAykArustw/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/tqAykArustw/0.jpg" />
 <img src="https://img.youtube.com/vi/tqAykArustw/1.jpg" />
@@ -272,12 +272,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[11.21]16. 資料視覺化-第7-3堂 ewantvideo]]></title>
       <itunes:title><![CDATA[11.21]16. 資料視覺化-第7-3堂 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[16. 資料視覺化-第7-3堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=n4OcTERRs7s"><img src="https://img.youtube.com/vi/n4OcTERRs7s/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/n4OcTERRs7s/0.jpg" />
 <img src="https://img.youtube.com/vi/n4OcTERRs7s/1.jpg" />
@@ -288,7 +288,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[16. 資料視覺化-第7-3堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=n4OcTERRs7s"><img src="https://img.youtube.com/vi/n4OcTERRs7s/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/n4OcTERRs7s/0.jpg" />
 <img src="https://img.youtube.com/vi/n4OcTERRs7s/1.jpg" />
@@ -298,7 +298,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>16. 資料視覺化-第7-3堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=n4OcTERRs7s"><img src="https://img.youtube.com/vi/n4OcTERRs7s/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/n4OcTERRs7s/0.jpg" />
 <img src="https://img.youtube.com/vi/n4OcTERRs7s/1.jpg" />
@@ -312,12 +312,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[12.10]17. 資料視覺化-第8-1堂 ewantvideo]]></title>
       <itunes:title><![CDATA[12.10]17. 資料視覺化-第8-1堂 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[17. 資料視覺化-第8-1堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=zjQSUGzH_t0"><img src="https://img.youtube.com/vi/zjQSUGzH_t0/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/zjQSUGzH_t0/0.jpg" />
 <img src="https://img.youtube.com/vi/zjQSUGzH_t0/1.jpg" />
@@ -328,7 +328,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[17. 資料視覺化-第8-1堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=zjQSUGzH_t0"><img src="https://img.youtube.com/vi/zjQSUGzH_t0/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/zjQSUGzH_t0/0.jpg" />
 <img src="https://img.youtube.com/vi/zjQSUGzH_t0/1.jpg" />
@@ -338,7 +338,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>17. 資料視覺化-第8-1堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=zjQSUGzH_t0"><img src="https://img.youtube.com/vi/zjQSUGzH_t0/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/zjQSUGzH_t0/0.jpg" />
 <img src="https://img.youtube.com/vi/zjQSUGzH_t0/1.jpg" />
@@ -352,12 +352,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[12.10]18. 資料視覺化-第8-2堂 ewantvideo]]></title>
       <itunes:title><![CDATA[12.10]18. 資料視覺化-第8-2堂 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[18. 資料視覺化-第8-2堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=MROUUiJ-MMo"><img src="https://img.youtube.com/vi/MROUUiJ-MMo/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/MROUUiJ-MMo/0.jpg" />
 <img src="https://img.youtube.com/vi/MROUUiJ-MMo/1.jpg" />
@@ -368,7 +368,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[18. 資料視覺化-第8-2堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=MROUUiJ-MMo"><img src="https://img.youtube.com/vi/MROUUiJ-MMo/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/MROUUiJ-MMo/0.jpg" />
 <img src="https://img.youtube.com/vi/MROUUiJ-MMo/1.jpg" />
@@ -378,7 +378,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>18. 資料視覺化-第8-2堂 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=MROUUiJ-MMo"><img src="https://img.youtube.com/vi/MROUUiJ-MMo/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/MROUUiJ-MMo/0.jpg" />
 <img src="https://img.youtube.com/vi/MROUUiJ-MMo/1.jpg" />
@@ -392,12 +392,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[12.26]20. 資料視覺化-9-1 ewantvideo]]></title>
       <itunes:title><![CDATA[12.26]20. 資料視覺化-9-1 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[20. 資料視覺化-9-1 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=GUVduyD1hv4"><img src="https://img.youtube.com/vi/GUVduyD1hv4/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/GUVduyD1hv4/0.jpg" />
 <img src="https://img.youtube.com/vi/GUVduyD1hv4/1.jpg" />
@@ -408,7 +408,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[20. 資料視覺化-9-1 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=GUVduyD1hv4"><img src="https://img.youtube.com/vi/GUVduyD1hv4/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/GUVduyD1hv4/0.jpg" />
 <img src="https://img.youtube.com/vi/GUVduyD1hv4/1.jpg" />
@@ -418,7 +418,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>20. 資料視覺化-9-1 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=GUVduyD1hv4"><img src="https://img.youtube.com/vi/GUVduyD1hv4/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/GUVduyD1hv4/0.jpg" />
 <img src="https://img.youtube.com/vi/GUVduyD1hv4/1.jpg" />
@@ -432,12 +432,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[12.26]21. 資料視覺化-9-2 ewantvideo]]></title>
       <itunes:title><![CDATA[12.26]21. 資料視覺化-9-2 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[21. 資料視覺化-9-2 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=UXdA3_2EYbc"><img src="https://img.youtube.com/vi/UXdA3_2EYbc/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/UXdA3_2EYbc/0.jpg" />
 <img src="https://img.youtube.com/vi/UXdA3_2EYbc/1.jpg" />
@@ -448,7 +448,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[21. 資料視覺化-9-2 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=UXdA3_2EYbc"><img src="https://img.youtube.com/vi/UXdA3_2EYbc/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/UXdA3_2EYbc/0.jpg" />
 <img src="https://img.youtube.com/vi/UXdA3_2EYbc/1.jpg" />
@@ -458,7 +458,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>21. 資料視覺化-9-2 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=UXdA3_2EYbc"><img src="https://img.youtube.com/vi/UXdA3_2EYbc/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/UXdA3_2EYbc/0.jpg" />
 <img src="https://img.youtube.com/vi/UXdA3_2EYbc/1.jpg" />
@@ -472,12 +472,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[12.26]22. 資料視覺化-10-1 ewantvideo]]></title>
       <itunes:title><![CDATA[12.26]22. 資料視覺化-10-1 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[22. 資料視覺化-10-1 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=lzBYcY9uh04"><img src="https://img.youtube.com/vi/lzBYcY9uh04/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/lzBYcY9uh04/0.jpg" />
 <img src="https://img.youtube.com/vi/lzBYcY9uh04/1.jpg" />
@@ -488,7 +488,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[22. 資料視覺化-10-1 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=lzBYcY9uh04"><img src="https://img.youtube.com/vi/lzBYcY9uh04/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/lzBYcY9uh04/0.jpg" />
 <img src="https://img.youtube.com/vi/lzBYcY9uh04/1.jpg" />
@@ -498,7 +498,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>22. 資料視覺化-10-1 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=lzBYcY9uh04"><img src="https://img.youtube.com/vi/lzBYcY9uh04/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/lzBYcY9uh04/0.jpg" />
 <img src="https://img.youtube.com/vi/lzBYcY9uh04/1.jpg" />
@@ -512,12 +512,12 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
     </item><item>
       <title><![CDATA[12.26]23. 資料視覺化-10-2 ewantvideo]]></title>
       <itunes:title><![CDATA[12.26]23. 資料視覺化-10-2 ewantvideo]]></itunes:title>
-      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]]]></itunes:author>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]]]></itunes:author>
       <itunes:summary>
         <![CDATA[23. 資料視覺化-10-2 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=ctaibkuxDhA"><img src="https://img.youtube.com/vi/ctaibkuxDhA/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/ctaibkuxDhA/0.jpg" />
 <img src="https://img.youtube.com/vi/ctaibkuxDhA/1.jpg" />
@@ -528,7 +528,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
         <![CDATA[23. 資料視覺化-10-2 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]
 <a href="https://www.youtube.com/watch?v=ctaibkuxDhA"><img src="https://img.youtube.com/vi/ctaibkuxDhA/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/ctaibkuxDhA/0.jpg" />
 <img src="https://img.youtube.com/vi/ctaibkuxDhA/1.jpg" />
@@ -538,7 +538,7 @@ https://www.youtube.com/watch?v=_uRfziNa4uA
       <content:encoded><![CDATA[<pre>23. 資料視覺化-10-2 ewantvideo
 
 https://www.youtube.com/watch?v=_uRfziNa4uA
-大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+]<br />
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化[MC+202405]<br />
 <a href="https://www.youtube.com/watch?v=ctaibkuxDhA"><img src="https://img.youtube.com/vi/ctaibkuxDhA/maxresdefault.jpg" />
 <img src="https://img.youtube.com/vi/ctaibkuxDhA/0.jpg" />
 <img src="https://img.youtube.com/vi/ctaibkuxDhA/1.jpg" />
