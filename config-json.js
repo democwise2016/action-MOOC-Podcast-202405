@@ -2,8 +2,8 @@ let CONFIG = {
   publicURL: `https://democwise2016.github.io/action-MOOC-Podcast-202405/`,
   publicURLShorten: `https://rb.gy/hc67di`,  // https://democwise2016.github.io/action-MOOC-Podcast-202405/
   thumbnailBorderColor: '8E0045',
-  titleAppend: '[MC+]',
-  titleSuffix: '[MC+]',
+  titleAppend: '[MC+202405]',
+  titleSuffix: '[MC+202405]',
   idAppend: false,
 
   maxDownloadItemPerFeed: 500000,
