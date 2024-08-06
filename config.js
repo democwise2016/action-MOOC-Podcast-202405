@@ -1,10 +1,14 @@
-const feedList = require('./config-list.js')
-const jsonList = require('./config-json.js')
+// const ItemFiltersPreset = require('./app/config/ItemFiltersPreset.js')
 const ConfigCheck = require('./app/config/ConfigCheck.js')
+const feedList = require('./config-list.js')
+const ConfigJSON = require('./config-json.js')
 
 let CONFIG = {
-  ...jsonList,
+  ...ConfigJSON,
+
   feedList
 }
 
-module.exports = ConfigCheck(CONFIG)
+module.exports = async function () {
+  return await ConfigCheck(CONFIG)
+}

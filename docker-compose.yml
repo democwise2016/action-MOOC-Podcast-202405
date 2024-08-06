@@ -4,14 +4,11 @@ version: "3"
 services:
   app:
     # build: .
-    image: pudding/docker-image-base:puppeteer-python-14-action-rss-ut-20240802.194753
+    image: pudding/docker-image-base:action-UT-Podcast-Docker-Image-20240806.161610
     tty: true
     volumes: 
-      - ./startup.sh:/startup.sh
-      - ./app:/app/
       - ./output:/output/
       - ./cache:/cache/
       - ./config.js:/config.js
       - ./config-list.js:/config-list.js
       - ./config-json.js:/config-json.js
-      - ./package.json:/package.json
