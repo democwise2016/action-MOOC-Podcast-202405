@@ -18,15 +18,6 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Clean GitHub Pages
-        run: |
-          git checkout --orphan new-gh-pages
-          git rm -rf .
-          git commit --allow-empty -m "New gh-pages branch"
-          git branch -D gh-pages
-          git branch -m new-gh-pages gh-pages
-          git checkout main
-
       # ----------------------------------------------------------------
       # https://github.com/orgs/community/discussions/26351#discussioncomment-3251597
 
