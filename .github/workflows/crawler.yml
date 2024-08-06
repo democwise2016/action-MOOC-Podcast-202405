@@ -69,13 +69,13 @@ jobs:
 
       # ----------------------------------------------------------------
 
-      - name: Clean Cache
-        run: |
-          rm -rf /output/* || true
-          rm -rf /cache/* || true
-          docker rmi -f $(docker images -aq) || true
-          docker network prune -f || true
-          docker volume prune -f || true
+      # - name: Clean Cache
+      #   run: |
+      #     rm -rf /output/* || true
+      #     rm -rf /cache/* || true
+      #     docker rmi -f $(docker images -aq) || true
+      #     docker network prune -f || true
+      #     docker volume prune -f || true
 
       # - name: Clean Cache node-cache.sqlite
       #   run: |
