@@ -1,6 +1,6 @@
 name: Crawler
 on: 
-  push:
+  #push:
   # schedule:
   #   - cron:  "5 0 * * *" # 實際執行時間是這個時間加八小時
   #   - cron:  "5 8 * * *" # 實際執行時間是這個時間加八小時
@@ -142,8 +142,8 @@ jobs:
 
       - name: Main
         run: |
-          bash ./action/install_docker_compose.sh
-          docker-compose up
+          bash ./install_docker_compose.sh
+          docker-compose up --abort-on-container-exit
 
       # ----------------------------------------------------------------
 
@@ -172,3 +172,25 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: output # The folder the action should deploy.
+
+      # ----------------------------------------------------------------
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch gh-pages branch
+        run: |
+          git fetch origin gh-pages --depth=1
+          git checkout gh-pages
+
+      - name: Remove all history except latest commit
+        run: |
+          latest_commit=$(git rev-parse HEAD)
+          git reset --soft $latest_commit
+          git commit --amend -m "Keep only the latest commit: ${{ github.sha }}"
+
+          git gc --aggressive --prune=now
+          
+          git push --force origin gh-pages
